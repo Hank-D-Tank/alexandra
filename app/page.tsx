@@ -15,7 +15,7 @@ const IMG_CLASS = "img w-[14vw] max-w-[140px] aspect-3/4 object-cover will-chang
 
 function Nav() {
   return (
-    <nav className="absolute top-0 left-0 right-0 flex justify-between items-start px-5 md:px-10 pt-4 md:pt-6">
+    <nav className="absolute top-0 left-0 right-0 flex justify-between items-start px-5 md:px-10 pt-8 md:pt-6">
       <span className="text-[10px] md:text-xs tracking-[0.3em] uppercase font-medium text-[#2A3428]">
         Alexandra Beaumont
       </span>
@@ -35,8 +35,8 @@ function Nav() {
 
 function HeroText() {
   return (
-    <div className="absolute inset-0 z-8 flex flex-col items-center justify-end pb-[1.5vh] md:pb-[2.5vh] pointer-events-none">
-      <div className="w-fit h-fit overflow-hidden pb-0.5 md:pb-1">
+    <div className="absolute inset-0 z-8 flex flex-col items-center justify-end pb-[3vh] md:pb-[2.5vh] pointer-events-none">
+      <div className="w-fit h-fit overflow-hidden pb-0 md:pb-1">
         <h1 className="reveal-text font-(family-name:--font-display) uppercase text-[14vw] md:text-[12vw] leading-none tracking-[0.06em] text-center text-[#1C2418]">
           Alexandra
         </h1>
