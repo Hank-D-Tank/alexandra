@@ -19,7 +19,7 @@ const anton = Anton({
 });
 
 export const metadata: Metadata = {
-  title: "Hank",
+  title: "ALexandra",
   description: "Timeline based animation",
 };
 
