@@ -63,7 +63,7 @@ function ImageGallery() {
   );
 }
 
-export default function Hank() {
+export default function Alexandra() {
   useGSAP(() => {
     const mm = GSAP.matchMedia();
 
